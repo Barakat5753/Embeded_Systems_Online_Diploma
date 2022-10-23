@@ -1,0 +1,1977 @@
+02:27:53 **** Rebuild of configuration Debug for project Lab01 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:2: warning: implicit declaration of function 'elseif' [-Wimplicit-function-declaration]
+  elseif(x/y == 2.5)
+  ^~~~~~
+..\main.c:17:2: error: expected ';' before 'printf'
+  printf(" int/float >>> float \n")
+  ^~~~~~
+02:28:05 **** Incremental Build of configuration Debug for project Lab01 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:2: warning: implicit declaration of function 'elseif' [-Wimplicit-function-declaration]
+  elseif(x/y == 2.5)
+  ^~~~~~
+..\main.c:17:2: error: expected ';' before 'printf'
+  printf(" int/float >>> float \n")
+  ^~~~~~
+02:28:11 **** Incremental Build of configuration Debug for project Lab01 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:2: warning: implicit declaration of function 'elseif' [-Wimplicit-function-declaration]
+  elseif(x/y == 2.5)
+  ^~~~~~
+..\main.c:17:2: error: expected ';' before 'printf'
+  printf(" int/float >>> float \n")
+  ^~~~~~
+02:29:00 **** Incremental Build of configuration Debug for project Lab01 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:2: warning: implicit declaration of function 'elseif' [-Wimplicit-function-declaration]
+  elseif(x/y == 2.5)
+  ^~~~~~
+..\main.c:17:2: error: expected ';' before 'printf'
+  printf(" int/float >>> float \n")
+  ^~~~~~
+02:29:54 **** Incremental Build of configuration Debug for project Lab01 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:2: warning: implicit declaration of function 'elseif' [-Wimplicit-function-declaration]
+  elseif (x/y == 2.5)
+  ^~~~~~
+..\main.c:17:3: error: expected ';' before 'printf'
+   printf(" int/float >>> float \n");
+   ^~~~~~
+02:29:58 **** Incremental Build of configuration Debug for project Lab01 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:2: warning: implicit declaration of function 'elseif' [-Wimplicit-function-declaration]
+  elseif (x/y == 2.5)
+  ^~~~~~
+..\main.c:17:3: error: expected ';' before 'printf'
+   printf(" int/float >>> float \n");
+   ^~~~~~
+02:30:59 **** Incremental Build of configuration Debug for project Lab01 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Lab01.exe main.o 
+Info: Nothing to build for Lab01
+02:31:15 **** Incremental Build of configuration Debug for project Lab01 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Lab01.exe main.o 
+Info: Nothing to build for Lab01
+02:35:11 **** Rebuild of configuration Debug for project Lab02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab02.o" "..\\src\\Lab02.c" 
+gcc -o Lab02.exe "src\\Lab02.o" 
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab01
+02:37:57 **** Incremental Build of configuration Debug for project Lab02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab02.o" "..\\src\\Lab02.c" 
+gcc -o Lab02.exe "src\\Lab02.o" 
+02:37:58 **** Rebuild of configuration Debug for project Lab03 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab03.o" "..\\src\\Lab03.c" 
+gcc -o Lab03.exe "src\\Lab03.o" 
+Info: Nothing to build for Lab03
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:39:38 **** Rebuild of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab04.o" "..\\src\\Lab04.c" 
+..\src\Lab04.c: In function 'main':
+..\src\Lab04.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d" , testInteger);
+          ^
+..\src\Lab04.c:16:2: warning: 'testInteger' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d" , testInteger);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Lab04.exe "src\\Lab04.o" 
+Info: Nothing to build for Lab04
+Info: Nothing to build for Lab04
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+Info: Nothing to build for Lab04
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+Info: Nothing to build for Lab04
+Info: Nothing to build for Lab04
+Info: Nothing to build for Lab02
+02:41:38 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab04.o" "..\\src\\Lab04.c" 
+..\src\Lab04.c: In function 'main':
+..\src\Lab04.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d" , testInteger);
+          ^
+..\src\Lab04.c:16:2: warning: 'testInteger' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d" , testInteger);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:42:12 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:42:36 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab04.o" "..\\src\\Lab04.c" 
+..\src\Lab04.c: In function 'main':
+..\src\Lab04.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d" , testInteger);
+          ^
+..\src\Lab04.c:16:2: warning: 'testInteger' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d" , testInteger);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:43:40 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab04.o" "..\\src\\Lab04.c" 
+..\src\Lab04.c: In function 'main':
+..\src\Lab04.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",testInteger);
+          ^
+..\src\Lab04.c:16:2: warning: 'testInteger' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",testInteger);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:43:44 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:44:17 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:45:48 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:47:25 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:49:39 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:49:39 **** Rebuild of configuration Debug for project Lab05 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab05.o" "..\\src\\Lab05.c" 
+..\src\Lab05.c:12:2: error: invalid preprocessing directive #int
+ #int main() {
+  ^~~
+..\src\Lab05.c:14:9: error: expected declaration specifiers or '...' before string constant
+  printf("Enter an integer: ");
+         ^~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\Lab05.c:10:0:
+..\src\Lab05.c:15:9: error: expected declaration specifiers or '...' before '(' token
+  fflush(stdout); fflush(stdin);
+         ^
+..\src\Lab05.c:15:25: error: expected declaration specifiers or '...' before '(' token
+  fflush(stdout); fflush(stdin);
+                         ^
+..\src\Lab05.c:16:8: error: expected declaration specifiers or '...' before string constant
+  scanf("%d",testInteger);
+        ^~~~
+..\src\Lab05.c:16:13: error: expected declaration specifiers or '...' before 'testInteger'
+  scanf("%d",testInteger);
+             ^~~~~~~~~~~
+In file included from ..\src\Lab05.c:10:0:
+..\src\Lab05.c:17:9: error: expected declaration specifiers or '...' before '(' token
+  fflush(stdout); fflush(stdin);
+         ^
+..\src\Lab05.c:17:25: error: expected declaration specifiers or '...' before '(' token
+  fflush(stdout); fflush(stdin);
+                         ^
+..\src\Lab05.c:18:9: error: expected declaration specifiers or '...' before string constant
+  printf("\nNumber = %d,",testInteger);
+         ^~~~~~~~~~~~~~~~
+..\src\Lab05.c:18:26: error: expected declaration specifiers or '...' before 'testInteger'
+  printf("\nNumber = %d,",testInteger);
+                          ^~~~~~~~~~~
+..\src\Lab05.c:19:2: error: expected identifier or '(' before 'return'
+  return 0;
+  ^~~~~~
+..\src\Lab05.c:20:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:50:03 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:50:04 **** Incremental Build of configuration Debug for project Lab05 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab05.o" "..\\src\\Lab05.c" 
+..\src\Lab05.c: In function 'main':
+..\src\Lab05.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",testInteger);
+          ^
+..\src\Lab05.c:16:2: warning: 'testInteger' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",testInteger);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Lab05.exe "src\\Lab05.o" 
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:51:02 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:51:02 **** Incremental Build of configuration Debug for project Lab05 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab05.o" "..\\src\\Lab05.c" 
+..\src\Lab05.c: In function 'main':
+..\src\Lab05.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",testInteger);
+          ^
+..\src\Lab05.c:16:2: warning: 'testInteger' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",testInteger);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Lab05.exe "src\\Lab05.o" 
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:51:07 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:51:49 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:51:49 **** Incremental Build of configuration Debug for project Lab05 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab05.o" "..\\src\\Lab05.c" 
+..\src\Lab05.c: In function 'main':
+..\src\Lab05.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",testInteger);
+          ^
+..\src\Lab05.c:17:2: warning: 'testInteger' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",testInteger);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Lab05.exe "src\\Lab05.o" 
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:52:19 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:52:19 **** Incremental Build of configuration Debug for project Lab05 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab05.o" "..\\src\\Lab05.c" 
+..\src\Lab05.c: In function 'main':
+..\src\Lab05.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",testInteger);
+          ^
+..\src\Lab05.c:17:2: warning: 'testInteger' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",testInteger);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Lab05.exe "src\\Lab05.o" 
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:55:03 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+02:55:04 **** Rebuild of configuration Debug for project Lab06 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab06.o" "..\\src\\Lab06.c" 
+..\src\Lab06.c: In function 'main':
+..\src\Lab06.c:17:2: warning: 'f' is used uninitialized in this function [-Wuninitialized]
+  printf("value = %f", f);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Lab06.exe "src\\Lab06.o" 
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:55:43 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+02:55:44 **** Incremental Build of configuration Debug for project Lab06 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab06.o" "..\\src\\Lab06.c" 
+gcc -o Lab06.exe "src\\Lab06.o" 
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:56:28 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:56:28 **** Incremental Build of configuration Debug for project Lab05 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab05.o" "..\\src\\Lab05.c" 
+gcc -o Lab05.exe "src\\Lab05.o" 
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:56:42 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:56:43 **** Incremental Build of configuration Debug for project Lab05 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab05.o" "..\\src\\Lab05.c" 
+gcc -o Lab05.exe "src\\Lab05.o" 
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+02:57:05 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab04.o" "..\\src\\Lab04.c" 
+..\src\Lab04.c: In function 'main':
+..\src\Lab04.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",testInteger);
+          ^
+..\src\Lab04.c:17:22: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("\nNumber = %d,",&testInteger);
+                      ^
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+02:57:08 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:13:11 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:13:12 **** Rebuild of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:16:2: warning: implicit declaration of function 'prinf' [-Wimplicit-function-declaration]
+  prinf("Variable width control:\n");
+  ^~~~~
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+src\Lab07.o: In function `main':
+F:\Work\Courses\Embedded Systems Couse - Keroles\WorkSpace\CProgramming\Unit_2\Lec_3\Labs\Lab07\Debug/../src/Lab07.c:16: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:13:47 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:13:48 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:15:56 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:15:56 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:18:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("Left-justified variable width: %c'\n", -5, 'x');
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:16:18 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:16:19 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:17:19 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:17:19 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:20:10: warning: implicit declaration of function 'printd' [-Wimplicit-function-declaration]
+  int r = printd("strings:\n");
+          ^~~~~~
+..\src\Lab07.c:20:6: warning: unused variable 'r' [-Wunused-variable]
+  int r = printd("strings:\n");
+      ^
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+src\Lab07.o: In function `main':
+F:\Work\Courses\Embedded Systems Couse - Keroles\WorkSpace\CProgramming\Unit_2\Lec_3\Labs\Lab07\Debug/../src/Lab07.c:20: undefined reference to `printd'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:18:09 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:18:10 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:20:6: warning: unused variable 'r' [-Wunused-variable]
+  int r = printf("strings:\n");
+      ^
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:19:03 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:19:04 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:23:32 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:23:33 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:24:52: warning: format '%s' expects argument of type 'char *', but argument 8 has type 'int' [-Wformat=]
+  printf("\t[%10s]\n\t[%-10s]\n\t[%-10.*s]\n\t[%-*.*s]\n",s,s,10,s,4,10,4,s);
+                                                    ^
+..\src\Lab07.c:24:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\t[%10s]\n\t[%-10s]\n\t[%-10.*s]\n\t[%-*.*s]\n",s,s,10,s,4,10,4,s);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:24:50 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:24:50 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:24:49: warning: format '%s' expects argument of type 'char *', but argument 7 has type 'int' [-Wformat=]
+  printf("\t[%10s]\n\t[%-10s]\n\t[%*s]\n\t[%-10.*s]\n\t[%-*.*s]\n",s,s,10,s,4,10,4,s);
+                                                 ^
+..\src\Lab07.c:24:60: warning: field precision specifier '.*' expects argument of type 'int', but argument 9 has type 'const char *' [-Wformat=]
+  printf("\t[%10s]\n\t[%-10s]\n\t[%*s]\n\t[%-10.*s]\n\t[%-*.*s]\n",s,s,10,s,4,10,4,s);
+                                                            ^
+..\src\Lab07.c:24:61: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  printf("\t[%10s]\n\t[%-10s]\n\t[%*s]\n\t[%-10.*s]\n\t[%-*.*s]\n",s,s,10,s,4,10,4,s);
+                                                             ^
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:27:54 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:27:55 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:29:14 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:29:15 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:29:32 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:29:33 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:34:48 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:34:48 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:39:9: warning: '0' flag ignored with precision and '%i' ms_printf format [-Wformat=]
+  printf("Decimal:\t%i %d %.6i %i %0.i %+i %u\n", 1, 2, 3, 0, 0, 4, -1);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:40:46 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:40:47 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:39:9: warning: '0' flag ignored with precision and '%i' ms_printf format [-Wformat=]
+  printf("Decimal:\t%i %d %.6i %i %0.i %+i %u\n", 1, 2, 3, 0, 0, 4, -1);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:47:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("Special values:\t 1/0=%g\n", 0.0/0.0, 1.0/0.0);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:41:01 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:41:01 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:39:9: warning: '0' flag ignored with precision and '%i' ms_printf format [-Wformat=]
+  printf("Decimal:\t%i %d %.6i %i %0.i %+i %u\n", 1, 2, 3, 0, 0, 4, -1);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:47:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("Special values:\t 1/0=%g\n", 0.0/0.0, 1.0/0.0);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:15:16: warning: unused variable 'x' [-Wunused-variable]
+  unsigned char x = 0;
+                ^
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:43:08 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:43:08 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:39:9: warning: '0' flag ignored with precision and '%i' ms_printf format [-Wformat=]
+  printf("Decimal:\t%i %d %.6i %i %0.i %+i %u\n", 1, 2, 3, 0, 0, 4, -1);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:47:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("Special values:\t 1/0=%g\n", 0.0/0.0, 1.0/0.0);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:51:44: warning: operation on 'x' may be undefined [-Wsequence-point]
+  printf("C_trick:\t %d %d %d \n", ++x, x, x++);
+                                           ~^~
+..\src\Lab07.c:51:44: warning: operation on 'x' may be undefined [-Wsequence-point]
+..\src\Lab07.c:52:40: warning: operation on 'x' may be undefined [-Wsequence-point]
+  printf("C_trick:\t %d %d %d \n", x++, ++x, x);
+                                        ^~~
+..\src\Lab07.c:52:40: warning: operation on 'x' may be undefined [-Wsequence-point]
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:49:31 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+03:49:32 **** Incremental Build of configuration Debug for project Lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab07.o" "..\\src\\Lab07.c" 
+..\src\Lab07.c: In function 'main':
+..\src\Lab07.c:39:9: warning: '0' flag ignored with precision and '%i' ms_printf format [-Wformat=]
+  printf("Decimal:\t%i %d %.6i %i %0.i %+i %u\n", 1, 2, 3, 0, 0, 4, -1); /// -1 --> All F (FFFF FFFF) as %u unsigned
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:47:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("Special values:\t 1/0=%g\n", 0.0/0.0, 1.0/0.0);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Lab07.c:51:44: warning: operation on 'x' may be undefined [-Wsequence-point]
+  printf("C_trick:\t %d %d %d \n", ++x, x, x++);
+                                           ~^~
+..\src\Lab07.c:51:44: warning: operation on 'x' may be undefined [-Wsequence-point]
+..\src\Lab07.c:52:40: warning: operation on 'x' may be undefined [-Wsequence-point]
+  printf("C_trick:\t %d %d %d \n", x++, ++x, x);
+                                        ^~~
+..\src\Lab07.c:52:40: warning: operation on 'x' may be undefined [-Wsequence-point]
+gcc -o Lab07.exe "src\\Lab07.o" 
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+03:54:39 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+03:54:40 **** Rebuild of configuration Debug for project Lab08 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab08.o" "..\\src\\Lab08.c" 
+..\src\Lab08.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main() {
+      ^~~~
+gcc -o Lab08.exe "src\\Lab08.o" 
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:02:12 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+04:02:13 **** Incremental Build of configuration Debug for project Lab08 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab08.o" "..\\src\\Lab08.c" 
+..\src\Lab08.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main() {
+      ^~~~
+gcc -o Lab08.exe "src\\Lab08.o" 
+04:02:14 **** Rebuild of configuration Debug for project Lab09 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab09.o" "..\\src\\Lab09.c" 
+..\src\Lab09.c: In function 'main':
+..\src\Lab09.c:20:18: warning: 'radius' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   area = 3.14159 * radius * radius;
+          ~~~~~~~~^~~~~~~~
+gcc -o Lab09.exe "src\\Lab09.o" 
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:03:47 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+04:03:47 **** Incremental Build of configuration Debug for project Lab09 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab09.o" "..\\src\\Lab09.c" 
+gcc -o Lab09.exe "src\\Lab09.o" 
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:12:43 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab04.o" "..\\src\\Lab04.c" 
+..\src\Lab04.c: In function 'main':
+..\src\Lab04.c:17:22: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("\nNumber = %d,",&testInteger);
+                      ^
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+04:12:44 **** Incremental Build of configuration Debug for project Lab09 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab09.o" "..\\src\\Lab09.c" 
+gcc -o Lab09.exe "src\\Lab09.o" 
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:12:52 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab04.o" "..\\src\\Lab04.c" 
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+04:13:12 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:13:31 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab04.o" "..\\src\\Lab04.c" 
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+04:13:34 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:14:05 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab04.o" "..\\src\\Lab04.c" 
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+04:14:17 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:18:18 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+04:18:19 **** Rebuild of configuration Debug for project Lab10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab10.o" "..\\src\\Lab10.c" 
+gcc -o Lab10.exe "src\\Lab10.o" 
+Info: Nothing to build for Lab10
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:21:08 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+04:21:09 **** Incremental Build of configuration Debug for project Lab10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab10.o" "..\\src\\Lab10.c" 
+gcc -o Lab10.exe "src\\Lab10.o" 
+04:21:10 **** Rebuild of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab11.o" "..\\src\\Lab11.c" 
+gcc -o Lab11.exe "src\\Lab11.o" 
+Info: Nothing to build for Lab11
+Info: Nothing to build for Lab11
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:21:43 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+04:21:44 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab11.o" "..\\src\\Lab11.c" 
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+04:22:05 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab11.o" "..\\src\\Lab11.c" 
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:22:28 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+04:22:29 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+04:22:34 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:22:51 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+04:22:52 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab11.o" "..\\src\\Lab11.c" 
+..\src\Lab11.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main() {
+      ^~~~
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:23:21 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+04:23:22 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab11.o" "..\\src\\Lab11.c" 
+..\src\Lab11.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main() {
+      ^~~~
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:23:47 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+04:23:48 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab11.o" "..\\src\\Lab11.c" 
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+04:23:53 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab11.o" "..\\src\\Lab11.c" 
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+04:24:07 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:24:12 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+04:24:12 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+04:27:47 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+04:27:48 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+04:27:48 **** Rebuild of configuration Debug for project Lab12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab12.o" "..\\src\\Lab12.c" 
+gcc -o Lab12.exe "src\\Lab12.o" 
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:25:04 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:25:05 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+15:25:06 **** Rebuild of configuration Debug for project Lab13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab13.o" "..\\src\\Lab13.c" 
+gcc -o Lab13.exe "src\\Lab13.o" 
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:27:31 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:27:32 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+15:27:32 **** Rebuild of configuration Debug for project Lab14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab14.o" "..\\src\\Lab14.c" 
+gcc -o Lab14.exe "src\\Lab14.o" 
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:27:57 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:27:58 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+15:27:59 **** Incremental Build of configuration Debug for project Lab14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab14.o" "..\\src\\Lab14.c" 
+gcc -o Lab14.exe "src\\Lab14.o" 
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:32:37 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:32:38 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+15:32:39 **** Rebuild of configuration Debug for project Lab15 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab15.o" "..\\src\\Lab15.c" 
+gcc -o Lab15.exe "src\\Lab15.o" 
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:33:31 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:33:32 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+15:33:33 **** Incremental Build of configuration Debug for project Lab15 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab15.o" "..\\src\\Lab15.c" 
+gcc -o Lab15.exe "src\\Lab15.o" 
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:37:14 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:37:15 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+15:37:17 **** Rebuild of configuration Debug for project Lab16 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab16.o" "..\\src\\Lab16.c" 
+..\src\Lab16.c: In function 'main':
+..\src\Lab16.c:19:18: warning: implicit declaration of function 'fflsuh' [-Wimplicit-function-declaration]
+   fflush(stdin); fflsuh(stdout);
+                  ^~~~~~
+..\src\Lab16.c:20:6: warning: 'd' is used uninitialized in this function [-Wuninitialized]
+   if (d<0) break;
+      ^
+gcc -o Lab16.exe "src\\Lab16.o" 
+src\Lab16.o: In function `main':
+F:\Work\Courses\Embedded Systems Couse - Keroles\WorkSpace\CProgramming\Unit_2\Lec_3\Labs\Lab16\Debug/../src/Lab16.c:19: undefined reference to `fflsuh'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:38:01 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:38:02 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+15:38:03 **** Incremental Build of configuration Debug for project Lab16 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab16.o" "..\\src\\Lab16.c" 
+..\src\Lab16.c: In function 'main':
+..\src\Lab16.c:20:6: warning: 'd' is used uninitialized in this function [-Wuninitialized]
+   if (d<0) break;
+      ^
+gcc -o Lab16.exe "src\\Lab16.o" 
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:38:34 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:38:35 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+15:38:35 **** Incremental Build of configuration Debug for project Lab16 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab16.o" "..\\src\\Lab16.c" 
+gcc -o Lab16.exe "src\\Lab16.o" 
+Info: Nothing to build for Lab16
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:48:04 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:48:05 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:48:06 **** Rebuild of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab17.o" "..\\src\\Lab17.c" 
+..\src\Lab17.c: In function 'main':
+..\src\Lab17.c:19:17: warning: implicit declaration of function 'sslush' [-Wimplicit-function-declaration]
+  fflush(stdin); sslush(stdout);
+                 ^~~~~~
+..\src\Lab17.c:24:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",choice);
+          ^
+..\src\Lab17.c:15:15: warning: unused variable 'Entered' [-Wunused-variable]
+  char choice, Entered;
+               ^~~~~~~
+..\src\Lab17.c:24:2: warning: 'choice' is used uninitialized in this function [-Wuninitialized]
+  scanf("%c",choice);
+  ^~~~~~~~~~~~~~~~~~
+gcc -o Lab17.exe "src\\Lab17.o" 
+src\Lab17.o: In function `main':
+F:\Work\Courses\Embedded Systems Couse - Keroles\WorkSpace\CProgramming\Unit_2\Lec_3\Labs\Lab17\Debug/../src/Lab17.c:19: undefined reference to `sslush'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:48:21 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:48:21 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:48:22 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab17.o" "..\\src\\Lab17.c" 
+..\src\Lab17.c: In function 'main':
+..\src\Lab17.c:24:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",choice);
+          ^
+..\src\Lab17.c:24:2: warning: 'choice' is used uninitialized in this function [-Wuninitialized]
+  scanf("%c",choice);
+  ^~~~~~~~~~~~~~~~~~
+gcc -o Lab17.exe "src\\Lab17.o" 
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:48:38 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:48:39 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:48:40 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab17.o" "..\\src\\Lab17.c" 
+gcc -o Lab17.exe "src\\Lab17.o" 
+Info: Nothing to build for Lab17
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:48:48 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:48:49 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+Info: Nothing to build for Lab17
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:48:53 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:48:54 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:48:55 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab17.o" "..\\src\\Lab17.c" 
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:48:59 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:49:06 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:49:07 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:49:08 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:49:16 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:49:47 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:49:48 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:49:49 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab17.o" "..\\src\\Lab17.c" 
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:49:51 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:51:07 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:51:07 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:51:08 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab17.o" "..\\src\\Lab17.c" 
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:51:14 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:52:19 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:56:17 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:56:18 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:56:19 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:56:20 **** Rebuild of configuration Debug for project Lab18 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab18.o" "..\\src\\Lab18.c" 
+gcc -o Lab18.exe "src\\Lab18.o" 
+Info: Nothing to build for Lab18
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:56:44 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:56:45 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:56:46 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:56:46 **** Incremental Build of configuration Debug for project Lab18 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab18.o" "..\\src\\Lab18.c" 
+gcc -o Lab18.exe "src\\Lab18.o" 
+Info: Nothing to build for Lab18
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:57:06 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:57:07 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:57:08 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:57:08 **** Incremental Build of configuration Debug for project Lab18 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab18.o" "..\\src\\Lab18.c" 
+gcc -o Lab18.exe "src\\Lab18.o" 
+Info: Nothing to build for Lab18
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+15:57:33 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+15:57:34 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+15:57:35 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:57:35 **** Incremental Build of configuration Debug for project Lab18 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab18.o" "..\\src\\Lab18.c" 
+gcc -o Lab18.exe "src\\Lab18.o" 
+Info: Nothing to build for Lab18
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+16:01:05 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+16:01:06 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+16:01:07 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab18
+16:01:08 **** Rebuild of configuration Debug for project Lab19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab19.o" "..\\src\\Lab19.c" 
+..\src\Lab19.c: In function 'main':
+..\src\Lab19.c:17:3: warning: statement with no effect [-Wunused-value]
+   for(j;j<=9;j++)
+   ^~~
+..\src\Lab19.c:19:13: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+    printf("%d ");
+             ^
+gcc -o Lab19.exe "src\\Lab19.o" 
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+16:02:30 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+16:02:31 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+16:02:32 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab18
+16:02:32 **** Incremental Build of configuration Debug for project Lab19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab19.o" "..\\src\\Lab19.c" 
+..\src\Lab19.c: In function 'main':
+..\src\Lab19.c:17:3: warning: statement with no effect [-Wunused-value]
+   for(j;j<=9;j++)
+   ^~~
+gcc -o Lab19.exe "src\\Lab19.o" 
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+16:02:57 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+16:02:58 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+16:02:59 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab18
+16:02:59 **** Incremental Build of configuration Debug for project Lab19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab19.o" "..\\src\\Lab19.c" 
+..\src\Lab19.c: In function 'main':
+..\src\Lab19.c:17:3: warning: statement with no effect [-Wunused-value]
+   for(j;j<=9;j++)
+   ^~~
+gcc -o Lab19.exe "src\\Lab19.o" 
+Info: Nothing to build for Lab19
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+16:03:36 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+16:03:37 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+16:03:37 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab18
+16:03:38 **** Incremental Build of configuration Debug for project Lab19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab19.o" "..\\src\\Lab19.c" 
+gcc -o Lab19.exe "src\\Lab19.o" 
+Info: Nothing to build for Lab19
+Info: Nothing to build for Lab01
+Info: Nothing to build for Lab02
+Info: Nothing to build for Lab03
+16:04:01 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab05
+Info: Nothing to build for Lab06
+Info: Nothing to build for Lab07
+Info: Nothing to build for Lab08
+Info: Nothing to build for Lab09
+Info: Nothing to build for Lab10
+16:04:02 **** Incremental Build of configuration Debug for project Lab11 ****
+Info: Internal Builder is used for build
+gcc -o Lab11.exe "src\\Lab11.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab12
+Info: Nothing to build for Lab13
+Info: Nothing to build for Lab14
+Info: Nothing to build for Lab15
+Info: Nothing to build for Lab16
+16:04:02 **** Incremental Build of configuration Debug for project Lab17 ****
+Info: Internal Builder is used for build
+gcc -o Lab17.exe "src\\Lab17.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab17.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab18
+16:04:03 **** Incremental Build of configuration Debug for project Lab19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab19.o" "..\\src\\Lab19.c" 
+gcc -o Lab19.exe "src\\Lab19.o" 
+Info: Nothing to build for Lab19

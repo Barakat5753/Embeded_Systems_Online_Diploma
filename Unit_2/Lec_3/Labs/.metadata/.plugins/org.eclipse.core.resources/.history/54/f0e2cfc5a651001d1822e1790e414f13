@@ -1,0 +1,19 @@
+/*
+ ============================================================================
+ Name        : Lab07.c
+ Author      : Barakat Ibrahim
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Prinf Tricks
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+
+int main() {
+	unsigned char x = 0;
+	prinf("Variable width control:\n");
+	printf("rught-justified variable width: %*c'\n", 5, 'x' );
+	return 0;
+}

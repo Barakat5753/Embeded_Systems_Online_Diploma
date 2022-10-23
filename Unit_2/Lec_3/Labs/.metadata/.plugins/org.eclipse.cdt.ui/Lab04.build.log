@@ -1,0 +1,8 @@
+16:04:01 **** Incremental Build of configuration Debug for project Lab04 ****
+Info: Internal Builder is used for build
+gcc -o Lab04.exe "src\\Lab04.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+16:04:01 Build Finished (took 281ms)
+

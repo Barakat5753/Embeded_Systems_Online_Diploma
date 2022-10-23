@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : Unit2_Lec03_Assignments_HW2_EX2.c
+ Author      : Barakat Ibrahim
+ Version     : 0.0
+ Description : Unit2 - Lecture 03 (C-Basics) - Assignments - Homework2 - Ex 2
+ Description : Write C Program to check whether Vowel or Consonant
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+int main() {
+	char x;
+
+	while(1){
+		printf("Enter an alphabet: ");
+		fflush(stdin); fflush(stdout);
+		scanf("%c", &x);
+		if((x =='a')||(x=='e')||(x=='i')||(x=='o')||(x=='u')||(x=='A')(x=='E')||(x=='I')||(x=='O')||(x=='U')){
+			printf("%c is vowel\n",x);
+		}
+		else{
+			printf("%c is consonant\n",x);
+		}
+	}
+
+	return 0;
+}

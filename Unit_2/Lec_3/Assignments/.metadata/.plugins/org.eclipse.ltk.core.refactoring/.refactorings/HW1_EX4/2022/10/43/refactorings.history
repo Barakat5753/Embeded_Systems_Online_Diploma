@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HW1_EX4/src/HW1_EX4.c&apos; to &apos;Unit2_Lec03_Assignments_HW1_EX4.c&apos;" description="Rename resource &apos;HW1_EX4.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/HW1_EX4.c" name="Unit2_Lec03_Assignments_HW1_EX4.c" stamp="1666477223759" updateReferences="true"/>
+</session>

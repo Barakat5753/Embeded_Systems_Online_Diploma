@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : Unit2_Lec03_Assignments_HW1_EX6.c
+ Author      : Barakat Ibrahim
+ Version     : 0.0
+ Description : Unit2 - Lecture 03 (C-Basics) - Assignments - Homework1 - Ex 4
+ Description : Write Source Code to Swap Two Numbers
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}

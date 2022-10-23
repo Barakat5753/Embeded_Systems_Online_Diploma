@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : Unit2_Lec03_Assignments_HW1_EX2.c
+ Author      : Barakat Ibrahim
+ Version     : 0.0
+ Description : Unit2 - Lecture 03 (C-Basics) - Assignments - Homework1 - Ex 3
+ Description : Write C Program to Add Two Integers
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+int main(void) {
+	int x , y;
+	printf("Enter Two integers: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d %d",x ,y);
+	printf("Sum: %d", x+y);
+
+	return 0;
+}

@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : Lab07.c
+ Author      : Barakat Ibrahim
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Prinf Tricks
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+
+int main() {
+	unsigned char x = 0;
+	printf("Variable width control:\n"); // Prints Statement then Line
+	printf("right-justified variable width: %*c'\n", 5, 'x' ); // Prints character x after 5 spaces
+	printf("Left-justified variable width: %*c'\n", -5, 'x'); // Prints character x Then 5 spaces
+
+	int r = printf("strings:\n"); // Print statement
+	printf("(The Last Printd printed %d characters)\n", r); // r holds number of chars printed in last statement 8 for Strings: and 1 for new line
+
+	const char* s = "Hello";
+	printf("\t[%10s]\n\t[%-10s]\n\t[%*s]\n\t[%-10.*s]\n\t[%-*.*s]\n", s, s, 5, s, 4, s, 10, 4, s);
+
+	return 0;
+}

@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : Lab07.c
+ Author      : Barakat Ibrahim
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Prinf Tricks
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+
+int main() {
+	unsigned char x = 0;
+	printf("Variable width control:\n");
+	printf("right-justified variable width: %*c'\n", 5, 'x' ); // Prints character x after 5 spaces
+	printf("Left-justified variable width: %*c'\n", -5, 'x');
+
+	return 0;
+}

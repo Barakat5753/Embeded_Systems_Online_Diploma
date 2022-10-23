@@ -1,0 +1,1281 @@
+18:01:51 **** Rebuild of configuration Debug for project HW1_EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX1.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX1.c" 
+gcc -o HW1_EX1.exe "src\\Unit2_Lec03_Assignments_HW1_EX1.o" 
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX1
+18:26:48 **** Rebuild of configuration Debug for project HW1_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX2.c" 
+gcc -o HW1_EX2.exe "src\\Unit2_Lec03_Assignments_HW1_EX2.o" 
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX1
+18:27:26 **** Incremental Build of configuration Debug for project HW1_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX2.c" 
+gcc -o HW1_EX2.exe "src\\Unit2_Lec03_Assignments_HW1_EX2.o" 
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX1
+18:27:39 **** Incremental Build of configuration Debug for project HW1_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX2.c" 
+gcc -o HW1_EX2.exe "src\\Unit2_Lec03_Assignments_HW1_EX2.o" 
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX1
+00:13:06 **** Incremental Build of configuration Debug for project HW1_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX2.c" 
+gcc -o HW1_EX2.exe "src\\Unit2_Lec03_Assignments_HW1_EX2.o" 
+00:13:08 **** Rebuild of configuration Debug for project HW1_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX3.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX3.c" 
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c: In function 'main':
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",x,y);
+          ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",x,y);
+             ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:18:18: error: expected ')' before 'x'
+  printf("Sum: %d"x+y);
+                  ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:18:16: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  printf("Sum: %d"x+y);
+                ^
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+00:13:19 **** Incremental Build of configuration Debug for project HW1_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX3.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX3.c" 
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c: In function 'main':
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",x,y);
+          ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",x,y);
+             ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d %d",x,y);
+  ^~~~~~~~~~~~~~~~~~
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:2: warning: 'y' is used uninitialized in this function [-Wuninitialized]
+gcc -o HW1_EX3.exe "src\\Unit2_Lec03_Assignments_HW1_EX3.o" 
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+00:14:10 **** Incremental Build of configuration Debug for project HW1_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX3.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX3.c" 
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c: In function 'main':
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",x ,y);
+          ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",x ,y);
+             ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d %d",x ,y);
+  ^~~~~~~~~~~~~~~~~~~
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:2: warning: 'y' is used uninitialized in this function [-Wuninitialized]
+gcc -o HW1_EX3.exe "src\\Unit2_Lec03_Assignments_HW1_EX3.o" 
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+00:15:09 **** Incremental Build of configuration Debug for project HW1_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX3.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX3.c" 
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c: In function 'main':
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d" ,x ,y);
+          ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d" ,x ,y);
+             ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d %d" ,x ,y);
+  ^~~~~~~~~~~~~~~~~~~~
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:2: warning: 'y' is used uninitialized in this function [-Wuninitialized]
+gcc -o HW1_EX3.exe "src\\Unit2_Lec03_Assignments_HW1_EX3.o" 
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+00:15:42 **** Incremental Build of configuration Debug for project HW1_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX3.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX3.c" 
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c: In function 'main':
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",x);
+          ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",y);
+          ^
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:17:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",x);
+  ^~~~~~~~~~~~~
+..\src\Unit2_Lec03_Assignments_HW1_EX3.c:18:2: warning: 'y' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",y);
+  ^~~~~~~~~~~~~
+gcc -o HW1_EX3.exe "src\\Unit2_Lec03_Assignments_HW1_EX3.o" 
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+00:16:05 **** Incremental Build of configuration Debug for project HW1_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX3.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX3.c" 
+gcc -o HW1_EX3.exe "src\\Unit2_Lec03_Assignments_HW1_EX3.o" 
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+00:19:31 **** Incremental Build of configuration Debug for project HW1_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX3.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX3.c" 
+gcc -o HW1_EX3.exe "src\\Unit2_Lec03_Assignments_HW1_EX3.o" 
+00:19:32 **** Rebuild of configuration Debug for project HW1_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW1_EX4.o" "..\\src\\HW1_EX4.c" 
+gcc -o HW1_EX4.exe "src\\HW1_EX4.o" 
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+00:19:48 **** Incremental Build of configuration Debug for project HW1_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW1_EX4.o" "..\\src\\HW1_EX4.c" 
+gcc -o HW1_EX4.exe "src\\HW1_EX4.o" 
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+00:23:57 **** Incremental Build of configuration Debug for project HW1_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX4.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX4.c" 
+gcc -o HW1_EX4.exe "src\\Unit2_Lec03_Assignments_HW1_EX4.o" 
+00:23:58 **** Rebuild of configuration Debug for project HW1_EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW1_EX5.o" "..\\src\\HW1_EX5.c" 
+gcc -o HW1_EX5.exe "src\\HW1_EX5.o" 
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+00:28:52 **** Incremental Build of configuration Debug for project HW1_EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX5.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX5.c" 
+gcc -o HW1_EX5.exe "src\\Unit2_Lec03_Assignments_HW1_EX5.o" 
+00:28:53 **** Rebuild of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX6.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX6.c" 
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+00:29:30 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX6.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX6.c" 
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+Info: Nothing to build for HW1_EX6
+00:29:45 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX6.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX6.c" 
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+00:32:57 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX6.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX6.c" 
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:32:58 **** Rebuild of configuration Debug for project HW1_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX7.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX7.c" 
+gcc -o HW1_EX7.exe "src\\Unit2_Lec03_Assignments_HW1_EX7.o" 
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+00:33:40 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:33:41 **** Incremental Build of configuration Debug for project HW1_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX7.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX7.c" 
+gcc -o HW1_EX7.exe "src\\Unit2_Lec03_Assignments_HW1_EX7.o" 
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+00:43:13 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+00:43:26 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+00:43:32 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+00:50:10 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+00:50:11 **** Rebuild of configuration Debug for project HW2_EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX1.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX1.c" 
+gcc -o HW2_EX1.exe "src\\Unit2_Lec03_Assignments_HW2_EX1.o" 
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+00:56:59 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+00:57:00 **** Rebuild of configuration Debug for project HW2_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX2.c" 
+..\src\Unit2_Lec03_Assignments_HW2_EX2.c: In function 'main':
+..\src\Unit2_Lec03_Assignments_HW2_EX2.c:19:11: warning: format '%C' expects argument of type 'wchar_t *', but argument 2 has type 'unsigned char *' [-Wformat=]
+   scanf("%C", &x);
+           ^
+..\src\Unit2_Lec03_Assignments_HW2_EX2.c:20:59: error: called object is not a function or function pointer
+   if((x =='a')||(x=='e')||(x=='i')||(x=='o')||(x=='u')||(x=='A')(x=='E')||(x=='I')||(x=='O')||(x=='U')){
+                                                         ~~^~~~~~
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+00:57:53 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+00:57:54 **** Incremental Build of configuration Debug for project HW2_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX2.c" 
+..\src\Unit2_Lec03_Assignments_HW2_EX2.c: In function 'main':
+..\src\Unit2_Lec03_Assignments_HW2_EX2.c:20:59: error: called object is not a function or function pointer
+   if((x =='a')||(x=='e')||(x=='i')||(x=='o')||(x=='u')||(x=='A')(x=='E')||(x=='I')||(x=='O')||(x=='U')){
+                                                         ~~^~~~~~
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+00:58:37 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+00:58:38 **** Incremental Build of configuration Debug for project HW2_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX2.c" 
+..\src\Unit2_Lec03_Assignments_HW2_EX2.c: In function 'main':
+..\src\Unit2_Lec03_Assignments_HW2_EX2.c:20:64: error: called object is not a function or function pointer
+   if((x == 'a')||(x== 'e')||(x== 'i')||(x== 'o')||(x== 'u')||(x== 'A')(x== 'E')||(x== 'I')||(x== 'O')||(x== 'U')){
+                                                              ~~^~~~~~~
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+00:59:48 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+00:59:49 **** Incremental Build of configuration Debug for project HW2_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX2.c" 
+gcc -o HW2_EX2.exe "src\\Unit2_Lec03_Assignments_HW2_EX2.o" 
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:00:11 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+01:00:11 **** Incremental Build of configuration Debug for project HW2_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX2.c" 
+gcc -o HW2_EX2.exe "src\\Unit2_Lec03_Assignments_HW2_EX2.o" 
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:00:49 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+01:00:50 **** Incremental Build of configuration Debug for project HW2_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX2.c" 
+gcc -o HW2_EX2.exe "src\\Unit2_Lec03_Assignments_HW2_EX2.o" 
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:07:31 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+01:07:32 **** Rebuild of configuration Debug for project HW2_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX3.o" "..\\src\\HW2_EX3.c" 
+gcc -o HW2_EX3.exe "src\\HW2_EX3.o" 
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:12:10 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+01:12:11 **** Incremental Build of configuration Debug for project HW2_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX3.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX3.c" 
+gcc -o HW2_EX3.exe "src\\Unit2_Lec03_Assignments_HW2_EX3.o" 
+01:12:12 **** Rebuild of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX4.o" "..\\src\\HW2_EX4.c" 
+gcc -o HW2_EX4.exe "src\\HW2_EX4.o" 
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:12:41 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:12:41 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX4.o" "..\\src\\HW2_EX4.c" 
+gcc -o HW2_EX4.exe "src\\HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:12:43 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:12:50 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:12:51 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:12:53 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:13:28 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:13:29 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:13:46 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:13:47 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX4.o" "..\\src\\HW2_EX4.c" 
+gcc -o HW2_EX4.exe "src\\HW2_EX4.o" 
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:14:11 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:14:12 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX4.o" "..\\src\\HW2_EX4.c" 
+gcc -o HW2_EX4.exe "src\\HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:14:14 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:14:22 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:14:23 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX4.o" "..\\src\\HW2_EX4.c" 
+gcc -o HW2_EX4.exe "src\\HW2_EX4.o" 
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:19:45 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:19:46 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX4.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX4.c" 
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:19:47 **** Rebuild of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX5.o" "..\\src\\HW2_EX5.c" 
+gcc -o HW2_EX5.exe "src\\HW2_EX5.o" 
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:24:19 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:24:19 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:24:20 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX5.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX5.c" 
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:24:21 **** Rebuild of configuration Debug for project HW2_EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX6.o" "..\\src\\HW2_EX6.c" 
+..\src\HW2_EX6.c: In function 'main':
+..\src\HW2_EX6.c:17:2: warning: 'y' is used uninitialized in this function [-Wuninitialized]
+  for (x=1;x<=y;x++){
+  ^~~
+gcc -o HW2_EX6.exe "src\\HW2_EX6.o" 
+Info: Nothing to build for HW2_EX6
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:24:52 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:24:53 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:24:53 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:24:53 **** Incremental Build of configuration Debug for project HW2_EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX6.o" "..\\src\\HW2_EX6.c" 
+gcc -o HW2_EX6.exe "src\\HW2_EX6.o" 
+Info: Nothing to build for HW2_EX6
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:30:16 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:30:17 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:30:17 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:30:18 **** Incremental Build of configuration Debug for project HW2_EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX6.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX6.c" 
+gcc -o HW2_EX6.exe "src\\Unit2_Lec03_Assignments_HW2_EX6.o" 
+01:30:19 **** Rebuild of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+Info: Nothing to build for HW2_EX7
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:30:59 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:30:59 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:31:00 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW2_EX6
+01:31:00 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+Info: Nothing to build for HW2_EX7
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:32:08 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:32:09 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:32:09 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW2_EX6
+01:32:09 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:32:23 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:32:24 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:32:24 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW2_EX6
+01:32:25 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:32:34 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:32:34 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:32:35 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW2_EX6
+01:32:35 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+Info: Nothing to build for HW2_EX7
+01:33:45 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:34:23 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:34:35 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:35:08 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:36:36 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:36:37 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:36:37 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW2_EX6
+01:36:38 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:38:57 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:39:06 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:39:07 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:39:07 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW2_EX6
+01:39:07 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:39:55 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW1_EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:39:55 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:39:56 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW2_EX6
+01:39:56 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+01:42:01 **** Incremental Build of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+01:42:02 **** Incremental Build of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+01:42:02 **** Incremental Build of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+Info: Nothing to build for HW2_EX6
+01:42:03 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+gcc: error: src\HW2_EX7.o: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+01:42:07 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+gcc: error: src\HW2_EX7.o: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+01:42:13 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+gcc: error: src\HW2_EX7.o: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+01:42:39 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+gcc: error: src\HW2_EX7.o: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+01:42:48 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+gcc: error: src\HW2_EX7.o: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+01:48:13 **** Rebuild of configuration Debug for project HW1_EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX1.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX1.c" 
+gcc -o HW1_EX1.exe "src\\Unit2_Lec03_Assignments_HW1_EX1.o" 
+01:48:15 **** Rebuild of configuration Debug for project HW1_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX2.c" 
+gcc -o HW1_EX2.exe "src\\Unit2_Lec03_Assignments_HW1_EX2.o" 
+01:48:16 **** Rebuild of configuration Debug for project HW1_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX3.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX3.c" 
+gcc -o HW1_EX3.exe "src\\Unit2_Lec03_Assignments_HW1_EX3.o" 
+01:48:16 **** Rebuild of configuration Debug for project HW1_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX4.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX4.c" 
+gcc -o HW1_EX4.exe "src\\Unit2_Lec03_Assignments_HW1_EX4.o" 
+01:48:17 **** Rebuild of configuration Debug for project HW1_EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX5.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX5.c" 
+gcc -o HW1_EX5.exe "src\\Unit2_Lec03_Assignments_HW1_EX5.o" 
+01:48:18 **** Rebuild of configuration Debug for project HW1_EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX6.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX6.c" 
+gcc -o HW1_EX6.exe "src\\Unit2_Lec03_Assignments_HW1_EX6.o" 
+01:48:18 **** Rebuild of configuration Debug for project HW1_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW1_EX7.o" "..\\src\\Unit2_Lec03_Assignments_HW1_EX7.c" 
+gcc -o HW1_EX7.exe "src\\Unit2_Lec03_Assignments_HW1_EX7.o" 
+01:48:19 **** Rebuild of configuration Debug for project HW2_EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX1.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX1.c" 
+gcc -o HW2_EX1.exe "src\\Unit2_Lec03_Assignments_HW2_EX1.o" 
+01:48:20 **** Rebuild of configuration Debug for project HW2_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX2.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX2.c" 
+gcc -o HW2_EX2.exe "src\\Unit2_Lec03_Assignments_HW2_EX2.o" 
+01:48:21 **** Rebuild of configuration Debug for project HW2_EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX3.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX3.c" 
+gcc -o HW2_EX3.exe "src\\Unit2_Lec03_Assignments_HW2_EX3.o" 
+01:48:21 **** Rebuild of configuration Debug for project HW2_EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX4.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX4.c" 
+gcc -o HW2_EX4.exe "src\\Unit2_Lec03_Assignments_HW2_EX4.o" 
+01:48:22 **** Rebuild of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX5.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX5.c" 
+gcc -o HW2_EX5.exe "src\\Unit2_Lec03_Assignments_HW2_EX5.o" 
+01:48:23 **** Rebuild of configuration Debug for project HW2_EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX6.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX6.c" 
+gcc -o HW2_EX6.exe "src\\Unit2_Lec03_Assignments_HW2_EX6.o" 
+01:48:24 **** Rebuild of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+Info: Nothing to build for HW2_EX7
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+01:49:58 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+..\src\HW2_EX7.c: In function 'main':
+..\src\HW2_EX7.c:21:16: error: 'Z' undeclared (first use in this function)
+    for (x=1;x<=Z;x--){
+                ^
+..\src\HW2_EX7.c:21:16: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+01:50:14 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+..\src\HW2_EX7.c: In function 'main':
+..\src\HW2_EX7.c:21:16: error: 'Z' undeclared (first use in this function)
+    for (x=1;x<=Z;x++){
+                ^
+..\src\HW2_EX7.c:21:16: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+01:50:28 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:50:31 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+01:51:39 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+01:51:46 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+01:51:52 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX7.o" "..\\src\\HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\HW2_EX7.o" 
+Info: Nothing to build for HW2_EX7
+Info: Nothing to build for HW2_EX7
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+01:55:13 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lec03_Assignments_HW2_EX7.o" "..\\src\\Unit2_Lec03_Assignments_HW2_EX7.c" 
+gcc -o HW2_EX7.exe "src\\Unit2_Lec03_Assignments_HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:55:14 **** Rebuild of configuration Debug for project HW2_EX8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX8.o" "..\\src\\HW2_EX8.c" 
+gcc -o HW2_EX8.exe "src\\HW2_EX8.o" 
+Info: Nothing to build for HW2_EX8
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+02:02:04 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\Unit2_Lec03_Assignments_HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:02:04 **** Incremental Build of configuration Debug for project HW2_EX8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX8.o" "..\\src\\HW2_EX8.c" 
+gcc -o HW2_EX8.exe "src\\HW2_EX8.o" 
+Info: Nothing to build for HW2_EX8
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+02:03:09 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\Unit2_Lec03_Assignments_HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:03:09 **** Incremental Build of configuration Debug for project HW2_EX8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX8.o" "..\\src\\HW2_EX8.c" 
+gcc -o HW2_EX8.exe "src\\HW2_EX8.o" 
+Info: Nothing to build for HW2_EX8
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+02:03:41 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\Unit2_Lec03_Assignments_HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:03:42 **** Incremental Build of configuration Debug for project HW2_EX8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX8.o" "..\\src\\HW2_EX8.c" 
+gcc -o HW2_EX8.exe "src\\HW2_EX8.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for HW1_EX1
+Info: Nothing to build for HW1_EX2
+Info: Nothing to build for HW1_EX3
+Info: Nothing to build for HW1_EX4
+Info: Nothing to build for HW1_EX5
+Info: Nothing to build for HW1_EX6
+Info: Nothing to build for HW1_EX7
+Info: Nothing to build for HW2_EX1
+Info: Nothing to build for HW2_EX2
+Info: Nothing to build for HW2_EX3
+Info: Nothing to build for HW2_EX4
+Info: Nothing to build for HW2_EX5
+Info: Nothing to build for HW2_EX6
+02:03:51 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\Unit2_Lec03_Assignments_HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:03:51 **** Incremental Build of configuration Debug for project HW2_EX8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW2_EX8.o" "..\\src\\HW2_EX8.c" 
+gcc -o HW2_EX8.exe "src\\HW2_EX8.o" 
+Info: Nothing to build for HW2_EX8
+Info: Nothing to build for HW2_EX8

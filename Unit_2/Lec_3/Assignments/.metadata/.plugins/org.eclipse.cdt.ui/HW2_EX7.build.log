@@ -1,0 +1,8 @@
+02:03:51 **** Incremental Build of configuration Debug for project HW2_EX7 ****
+Info: Internal Builder is used for build
+gcc -o HW2_EX7.exe "src\\Unit2_Lec03_Assignments_HW2_EX7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW2_EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+02:03:51 Build Finished (took 267ms)
+
